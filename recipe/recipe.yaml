@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.13.1"
+  version: "2.15.0"
 
 package:
   name: flyte
@@ -10,7 +10,7 @@ package:
 source:
   # PyPI only has a wheel.
   url: https://github.com/flyteorg/flyte-sdk/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: dbaabd6f799ee3c2ff3dd9f834d6cd4631d4de88c8ace23925892612d25ebb4e
+  sha256: 0917179528db4859709ec26fb066fbc6654d343c20a48a5703ba4ff997b896fc
 
 build:
   number: 0
